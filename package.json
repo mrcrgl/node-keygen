@@ -1,0 +1,15 @@
+{
+    "name":"randomstring",
+    "description":"Random string generator for node.js",
+    "version":"1.0.0",
+    "author":"Marc Riegel <mail@marclab.de>",
+    "homepage": "https://github.com/mrcrgl/node-randomstring",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/klughammer/node-randomstring.git"
+    },
+    "main":"./index",
+    "engines": {
+        "node":"*"
+    }
+}
