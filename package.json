@@ -1,12 +1,12 @@
 {
-    "name":"randomstring",
-    "description":"Random string generator for node.js",
+    "name":"keygen",
+    "description":"Random key generator for node.js",
     "version":"1.0.0",
     "author":"Marc Riegel <mail@marclab.de>",
-    "homepage": "https://github.com/mrcrgl/node-randomstring",
+    "homepage": "https://github.com/mrcrgl/node-keygen",
     "repository": {
         "type": "git",
-        "url": "git://github.com/klughammer/node-randomstring.git"
+        "url": "git://github.com/mrcrgl/node-keygen.git"
     },
     "main":"./index",
     "engines": {

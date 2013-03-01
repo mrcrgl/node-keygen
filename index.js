@@ -5,4 +5,4 @@
  *
  */
 
-module.exports = require('./lib/randomstring');
+module.exports = require('./lib/keygen');

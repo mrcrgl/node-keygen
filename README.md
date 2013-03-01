@@ -1,17 +1,17 @@
-node-randomstring
+node-keygen
 =================
 
-Random String generator for node.js
+Key generator for node.js
 
 ## Usage
 
 ```javascript
-var randomstring = require("foostring");
+var keygen = require("keygen");
 
-randomstring.generate();
+keygen.generate();
 // >> "XwPp9xazJ0ku5CZnlmgAx2Dld8SHkAeT"
 
-randomstring.generate(7);
+keygen.generate(7);
 // >> "xqm5wXX"
 ```
 
