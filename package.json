@@ -1,15 +1,27 @@
 {
-    "name":"keygen",
-    "description":"Random key generator for node.js",
-    "version":"1.0.0",
-    "author":"Marc Riegel <mail@marclab.de>",
-    "homepage": "https://github.com/mrcrgl/node-keygen",
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/mrcrgl/node-keygen.git"
-    },
-    "main":"./index",
-    "engines": {
-        "node":"*"
-    }
+  "name": "keygenerator",
+  "description": "Random key generator for node.js",
+  "version": "1.0.0",
+  "author": "Marc Riegel <mail@marclab.de>",
+  "homepage": "https://github.com/mrcrgl/node-keygen",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mrcrgl/node-keygen.git"
+  },
+  "main": "./index",
+  "engines": {
+    "node": "*"
+  },
+  "readmeFilename": "README.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "key",
+    "random",
+    "string",
+    "password",
+    "session_id"
+  ],
+  "license": "MIT"
 }

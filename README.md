@@ -3,6 +3,10 @@ node-keygen
 
 Key generator for node.js
 
+## Installation
+
+
+
 ## Usage
 
 ```javascript
