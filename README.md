@@ -5,18 +5,16 @@ Key generator for node.js
 
 ## Installation
 
-
+```sh
+npm install keygenerator
+```
 
 ## Usage
 
 ```javascript
-var keygen = require("keygen");
+var keygen = require("keygenerator");
 
-keygen.generate();
-// >> "XwPp9xazJ0ku5CZnlmgAx2Dld8SHkAeT"
-
-keygen.generate(7);
-// >> "xqm5wXX"
+keygen._();
 ```
 
 ## Licence
