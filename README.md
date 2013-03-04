@@ -1,4 +1,4 @@
-node-randomstring
+node-keygen // keygenerator
 =================
 
 Random String generator for node.js
