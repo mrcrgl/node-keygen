@@ -1,7 +1,7 @@
 {
   "name": "keygenerator",
   "description": "Random key generator for node.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Marc Riegel <mail@marclab.de>",
   "homepage": "https://github.com/mrcrgl/node-keygen",
   "repository": {
