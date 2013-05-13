@@ -5,12 +5,39 @@
  *
  */
 
-var keygen = require('../index');
+var vows = require('vows'),
+    assert = require('assert'),
+    Keygen = require('../index');
 
-console.log('keygen._(): %s', keygen._());
-console.log('keygen.password(): %s', keygen.password());
-console.log('keygen.session_id(): %s', keygen.session_id());
-console.log('keygen.transaction_id(): %s', keygen.transaction_id());
-console.log('keygen.number(): %s', keygen.number());
-console.log('keygen._({forceUppercase:true}): %s', keygen._({forceUppercase:true}));
-console.log('keygen._({forceLowercase:true}): %s', keygen._({forceLowercase:true}));
+vows.describe('Mixing parameters').addBatch({
+    'random string': {
+        topic: function () {
+            return Keygen._('Teststring');
+        },
+
+        'result is default': function (topic) {
+            assert.equal (topic.length, Keygen.defaults.length);
+        }
+    },
+    'random stringe': {
+        topic: function () {
+            return Keygen._('Teststring');
+        },
+
+        'result is default': function (topic) {
+            assert.equal (topic, Infinity);
+        }
+    },
+    'but when dividing zero by zero': {
+        topic: function () { return 0 / 0 },
+
+        'we get a value which': {
+            'is not a number': function (topic) {
+                assert.isNaN (topic);
+            },
+            'is not equal to itself': function (topic) {
+                assert.notEqual (topic, topic);
+            }
+        }
+    }
+}).export(module);

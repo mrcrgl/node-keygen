@@ -9,12 +9,15 @@
     "url": "git://github.com/mrcrgl/node-keygen.git"
   },
   "main": "./index",
-  "engines": {
+    "devDependencies": {
+        "vows"    :  "*"
+    },
+    "engines": {
     "node": "*"
   },
   "readmeFilename": "README.md",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+      "test" : "vows --spec --isolate ./test"
   },
   "keywords": [
     "key",
