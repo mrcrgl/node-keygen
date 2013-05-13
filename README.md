@@ -1,4 +1,4 @@
-node-keygen // keygenerator
+node-keygen // keygenerator [![Build Status](https://secure.travis-ci.org/mrcrgl/node-keygen.png)](http://travis-ci.org/mrcrgl/node-keygen)
 =================
 
 Random String generator for node.js
