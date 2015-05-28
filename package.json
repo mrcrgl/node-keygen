@@ -1,8 +1,8 @@
 {
   "name": "keygenerator",
   "description": "Random key generator for node.js",
-  "version": "1.0.2",
-  "author": "Marc Riegel <mail@marclab.de>",
+  "version": "1.0.4",
+  "author": "Marc Riegel <mail@mrcrgl.de>",
   "homepage": "https://github.com/mrcrgl/node-keygen",
   "repository": {
     "type": "git",
@@ -17,7 +17,7 @@
   },
   "readmeFilename": "README.md",
   "scripts": {
-    "test": "vows --spec --isolate ./test"
+    "test": "vows --spec --isolate ./test/index.js"
   },
   "keywords": [
     "key",

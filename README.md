@@ -3,6 +3,12 @@ node-keygen // keygenerator [![Build Status](https://secure.travis-ci.org/mrcrgl
 
 Random String generator for node.js
 
+## Installation
+
+```shell
+npm install keygenerator --save
+```
+
 ## Usage
 
 ```javascript
